@@ -29,7 +29,7 @@ Kõige paremini läks ülesannete jagamine ja koos töötamine. Kõige raskem ol
 # Mermaid Class Diagramm CODE
 ```mermaid
 classDiagram
-    class Liige {
+    class Klient {
         -liikmeID: int
         -nimi: String
         -email: String
