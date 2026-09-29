@@ -24,3 +24,45 @@ Tegime maketi inkrementaalselt, sest nii saime ühe ekraani valmis teha ja kontr
 Tahvli alguse ja lõpu pildid asuvad kaustas protsess/.
 
 Kõige paremini läks ülesannete jagamine ja koos töötamine. Kõige raskem oli GitHubi harude ja pull requestide kasutamine. Järgmisel korral planeeriksime töö etapid varem ja jagaksime ülesanded täpsemalt.
+
+
+# Mermaid Class Diagramm CODE
+```mermaid
+classDiagram
+    class Liige {
+        -liikmeID: int
+        -nimi: String
+        -email: String
+        +vaataBroneeringuid()
+        +broneeriAeg()
+        +tühistaBroneering()
+    }
+    class Broneering {
+        -int broneeringuId
+        -Date kuupäev
+        -String staatus
+        +looBroneering()
+        +tühista()
+        +kinnita()
+    }
+    class TreeninguAeg{
+        -treeninguID: int
+        -kuupäev: Date
+        -vaba: Boolean
+        -kellaaeg: Time
+        +muudaAega()
+        +kontrolliSaadavust()
+        +kuvaRegistreerunudLiikmed()
+    }
+    class Treener{
+        -treenerID: int
+        -nimi: String
+        -email: String
+        +muudaTreeninguAeg()
+        +vaataRegistreerinuid()
+
+    }
+    Liige  -->  Broneering
+    Broneering --> TreeninguAeg
+    TreeninguAeg <-- Treener
+```
