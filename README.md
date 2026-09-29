@@ -66,3 +66,5 @@ classDiagram
     Broneering --> TreeninguAeg
     TreeninguAeg <-- Treener
 ```
+# Diff
+Diff näitab, millised read ja muudatused lisati, kustutati või muudeti kahe versiooni vahel.
