@@ -62,7 +62,7 @@ classDiagram
         +vaataRegistreerinuid()
 
     }
-    Liige  -->  Broneering
+    Klient  -->  Broneering
     Broneering --> TreeninguAeg
     TreeninguAeg <-- Treener
 ```
