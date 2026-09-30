@@ -68,3 +68,6 @@ classDiagram
 ```
 # Diff
 Diff näitab, millised read ja muudatused lisati, kustutati või muudeti kahe versiooni vahel.
+
+## Vahendid
+Meie süsteemi jaoks valime draw.io, sest see on tasuta ja seda on lihtne kasutada. Me ei vali Mermaidit, sest selle õppimine on keerulisem ja koostöö on piiratum. Kui meeskond oleks suurem, valiksime samuti draw.io, sest seal on mugav koos diagramme luua.
