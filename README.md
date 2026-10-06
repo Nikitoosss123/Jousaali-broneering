@@ -18,6 +18,28 @@ Valisime inkrementaalse mudeli, sest nii saab süsteemi teha osade kaupa. Kõige
 
 ## Projekti tüübid
 
+### (a) Uus funktsioon: Treeningu aja muutmine
+-Tüüp: olemasoleva süsteemi arendus
+-Mis muutub: treener saab muuta treeningu kuupäeva ja kellaaega.
+-Mis jääb samaks: liikmed, registreerumised ja muu süsteemi loogika.
+-Peamine risk: liikmetele kuvatakse vale treeningu aeg.
+-Esimene samm: kontrollime, milliseid klasse ja ekraane tuleb muuta.
+
+### (b) Üleviimine: PHP 5 + MySQL → Node.js + PostgreSQL
+- Tüüp: üleviimine uuele platvormile
+- Mis muutub: kogu rakenduse kood ja andmebaas; muutuvad klassid Liige, Broneering, TreeninguAeg ja Treener ning nende andmebaasi tabelid
+- Mis jääb samaks: kõik viis kasutuslugu, süsteemi põhifunktsioonid, kasutajate andmed ja broneeringute loogika
+- Peamine risk: Broneeringute seosed liikmete ja treeninguaegadega võivad üleviimisel kaduma minna või valesti seostuda
+- Esimene samm: teeme vanast andmebaasist varukoopia ja loendame tabelite andmed (Liige, Broneering, TreeninguAeg, Treener), et pärast üleviimist saaksime kontrollida, et kõik andmed on alles
+
+### (c) Liidestamine: Google Calendar
+- Tüüp: liidestamine
+- Mis muutub: lisame Google Calendariga ühenduse ja võimaluse lisada broneeritud treeninguaeg kalendrisse
+- Mis jääb samaks: kõik viis kasutuslugu, olemasolevad klassid Liige, Broneering, TreeninguAeg ja Treener ning broneerimise loogika
+- Peamine risk: treeningu kuupäev ja kellaaeg võivad Google Calendarisse saata vale ajaga või vale sündmus võib sattuda vale liikme kalendrisse
+- Esimene samm: uurime Google Calendar API võimalusi ja määrame, milliseid andmeid süsteem peab kalendrisse saatma
+- Saadame: treeningu kuupäeva, kellaaja ja treeningu andmed
+- Saame vastu: Google Calendarisse loodud sündmuse ID ja kinnituse, et sündmus lisati
 
 # Inkrementaalselt või iteratiivselt ja miks
 Tegime maketi inkrementaalselt, sest nii saime ühe ekraani valmis teha ja kontrollida enne teise ekraani tegemist.
@@ -74,3 +96,6 @@ Diff näitab, millised read ja muudatused lisati, kustutati või muudeti kahe ve
 
 ## Vahendid
 Meie süsteemi jaoks valime draw.io, sest see on tasuta ja seda on lihtne kasutada. Me ei vali Mermaidit, sest selle õppimine on keerulisem ja koostöö on piiratum. Kui meeskond oleks suurem, valiksime samuti draw.io, sest seal on mugav koos diagramme luua.
+
+
+
