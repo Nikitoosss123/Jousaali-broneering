@@ -16,6 +16,21 @@ Valisime inkrementaalse mudeli, sest nii saab süsteemi teha osade kaupa. Kõige
 
 ![Klassid](diagramm/2Diagramm.png)
 
+## Projekti tüübid
+
+### (a) Uus funktsioon: Treeningu aja muutmine
+-Tüüp: olemasoleva süsteemi arendus
+
+-Mis muutub: treener saab muuta treeningu kuupäeva ja kellaaega.
+
+-Mis jääb samaks: liikmed, registreerumised ja muu süsteemi loogika.
+
+-Peamine risk: liikmetele kuvatakse vale treeningu aeg.
+
+-Esimene samm: kontrollime, milliseid klasse ja ekraane tuleb muuta.
+
+
+
 # Inkrementaalselt või iteratiivselt ja miks
 Tegime maketi inkrementaalselt, sest nii saime ühe ekraani valmis teha ja kontrollida enne teise ekraani tegemist.
 
