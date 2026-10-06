@@ -32,6 +32,15 @@ Valisime inkrementaalse mudeli, sest nii saab süsteemi teha osade kaupa. Kõige
 - Peamine risk: Broneeringute seosed liikmete ja treeninguaegadega võivad üleviimisel kaduma minna või valesti seostuda
 - Esimene samm: teeme vanast andmebaasist varukoopia ja loendame tabelite andmed (Liige, Broneering, TreeninguAeg, Treener), et pärast üleviimist saaksime kontrollida, et kõik andmed on alles
 
+### (c) Liidestamine: Google Calendar
+- Tüüp: liidestamine
+- Mis muutub: lisame Google Calendariga ühenduse ja võimaluse lisada broneeritud treeninguaeg kalendrisse
+- Mis jääb samaks: kõik viis kasutuslugu, olemasolevad klassid Liige, Broneering, TreeninguAeg ja Treener ning broneerimise loogika
+- Peamine risk: treeningu kuupäev ja kellaaeg võivad Google Calendarisse saata vale ajaga või vale sündmus võib sattuda vale liikme kalendrisse
+- Esimene samm: uurime Google Calendar API võimalusi ja määrame, milliseid andmeid süsteem peab kalendrisse saatma
+- Saadame: treeningu kuupäeva, kellaaja ja treeningu andmed
+- Saame vastu: Google Calendarisse loodud sündmuse ID ja kinnituse, et sündmus lisati
+
 # Inkrementaalselt või iteratiivselt ja miks
 Tegime maketi inkrementaalselt, sest nii saime ühe ekraani valmis teha ja kontrollida enne teise ekraani tegemist.
 
