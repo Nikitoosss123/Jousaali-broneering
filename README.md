@@ -20,14 +20,17 @@ Valisime inkrementaalse mudeli, sest nii saab süsteemi teha osade kaupa. Kõige
 
 ### (a) Uus funktsioon: Treeningu aja muutmine
 -Tüüp: olemasoleva süsteemi arendus
-
 -Mis muutub: treener saab muuta treeningu kuupäeva ja kellaaega.
-
 -Mis jääb samaks: liikmed, registreerumised ja muu süsteemi loogika.
-
 -Peamine risk: liikmetele kuvatakse vale treeningu aeg.
-
 -Esimene samm: kontrollime, milliseid klasse ja ekraane tuleb muuta.
+
+### (b) Üleviimine: PHP 5 + MySQL → Node.js + PostgreSQL
+- Tüüp: üleviimine uuele platvormile
+- Mis muutub: kogu rakenduse kood ja andmebaas; muutuvad klassid Liige, Broneering, TreeninguAeg ja Treener ning nende andmebaasi tabelid
+- Mis jääb samaks: kõik viis kasutuslugu, süsteemi põhifunktsioonid, kasutajate andmed ja broneeringute loogika
+- Peamine risk: Broneeringute seosed liikmete ja treeninguaegadega võivad üleviimisel kaduma minna või valesti seostuda
+- Esimene samm: teeme vanast andmebaasist varukoopia ja loendame tabelite andmed (Liige, Broneering, TreeninguAeg, Treener), et pärast üleviimist saaksime kontrollida, et kõik andmed on alles
 
 # Inkrementaalselt või iteratiivselt ja miks
 Tegime maketi inkrementaalselt, sest nii saime ühe ekraani valmis teha ja kontrollida enne teise ekraani tegemist.
