@@ -100,30 +100,47 @@ Meie süsteemi jaoks valime draw.io, sest see on tasuta ja seda on lihtne kasuta
 ## Projekti kaart
 
 **Tellija:** Nikita Kirejev jõusaali juhataja
+
 **Probleem:** Jõusaali liikmetel on raske leida sobivat treenerit ja vaba aega. Treenerid peavad broneeringuid käsitsi haldama.
+
 **Eesmärk:** 1. detsembriks saavad liikmed veebis valida treeneri, näha tema vabu aegu ja broneerida treeningu.
-**Tulemus:** Treenerite nimekiri
+
+**Tulemus:**
+Treenerite nimekiri
+
 Vabade aegade vaatamine
+
 Treeningu broneerimine ja tühistamine
+
 Oma broneeringute vaatamine
 
-**Ulatus SEES:** Kasutaja registreerimine ja sisselogimine
+**Ulatus SEES:** 
+
+Kasutaja registreerimine ja sisselogimine
+
 Treenerite vaatamine
+
 Vaba aja valimine
+
 Broneeringute haldamine
-**Ulatus VÄLJAS:** Online-maksed
+
+**Ulatus VÄLJAS:** 
+
+Online-maksed
+
 Videotreeningud
+
 Mobiilirakendus
 
 **Kolmnurk:** aeg: fikseeritud; raha/inimesed: 2 inimest; ulatus: paindlik.  Fikseeritud on aeg ja meeskonna suurus.
-**Rollid:** tellija — jõusaali juhataja; projektijuht — üks meeskonnaliige; meeskond — 2 õpilast; huvipooled — liikmed ja treenerid.
+
+**Rollid:** tellija — jõusaali juhataja; projektijuht — üks meeskonnaliige; meeskond — 2 õpilast ja Nikita Kirejev ja Nikita Popovych; huvipooled — liikmed ja treenerid ja Nikita Popovych.
 
 | Risk | Tõenäosus 1–3 | Mõju 1–3 | Mida teeme enne |
 |---|---|---|---|
 | Treenerite ajad ei salvestu õigesti | 2 | 3 | Testime broneerimist |
 | Tekib topeltbroneering | 2 | 3 | Kontrollime vabu aegu |
-| Projekt ei valmi tähtajaks | 2 | 3 | Teeme põhifunktsioonid esimesena
- |
+| Projekt ei valmi tähtajaks | 2 | 3 | Teeme põhifunktsioonid esimesena |
 
 **Edukriteerium:** Liige saab valida treeneri, leida vaba aja ja teha broneeringu.
 
